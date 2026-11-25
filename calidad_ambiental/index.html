@@ -9,21 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
-        /* Oculta la flecha por defecto del navegador en la etiqueta details */
         details > summary { list-style: none; }
         details > summary::-webkit-details-marker { display: none; }
     </style>
 </head>
 <body class="bg-slate-50 min-h-screen text-slate-800">
 
-    <!-- ENCABEZADO: Imagen de fondo de hojas -->
     <header class="relative bg-[url('fondo_planta.jpg')] bg-cover bg-center shadow-md">
-        <!-- Capa semi-transparente para asegurar que el texto blanco se lea perfecto -->
         <div class="absolute inset-0 bg-green-900/30"></div>
         
-        <!-- El contenido se mantiene en posición relativa para quedar por encima de la capa -->
         <div class="relative max-w-3xl mx-auto px-4 py-10 sm:py-12 flex flex-col items-center text-center">
-            <!-- Ícono estético de hoja/ambiente -->
             <img src="renace.png" alt="Logo Institucional" class="w-32 h-32 sm:w-36 sm:h-36 mb-4 object-contain drop-shadow-md bg-white/90 p-2 rounded-xl">
             <h1 class="text-3xl sm:text-4xl font-bold text-white uppercase tracking-wide drop-shadow-md">
                 Calidad Ambiental
@@ -34,7 +29,6 @@
         </div>
     </header>
 
-    <!-- CONTENEDOR PRINCIPAL DE LOS TRÁMITES -->
     <main class="max-w-3xl mx-auto px-4 py-8 sm:px-6">
         <p class="text-sm text-gray-500 mb-6 text-center">Seleccione un trámite para ver la documentación requerida.</p>
 
@@ -43,17 +37,13 @@
 
         <div class="space-y-4">
             
-            <!-- TRÁMITE 1 -->
             <details class="group bg-white rounded-xl shadow-sm border border-emerald-100 transition-all hover:shadow-md">
-                <!-- 1. EDITAR AQUÍ EL TÍTULO: Reemplaza el texto dentro del <span> -->
                 <summary class="font-semibold px-5 py-4 cursor-pointer flex justify-between items-center text-emerald-950 select-none">
                     <span class="pr-4">RECAUDO QUE DEBE CONSIGNAR</span>
-                    <!-- Flecha indicadora -->
                     <span class="transition-transform duration-300 group-open:rotate-180 text-emerald-600 flex-shrink-0">
                         <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
                     </span>
                 </summary>
-                <!-- 2. EDITAR AQUÍ EL CONTENIDO: Agrega tus <li> o párrafos aquí -->
                 <div class="px-5 pb-5 text-gray-600 text-sm sm:text-base border-t border-gray-50 mt-1 pt-4">
                     <ul class="list-disc pl-5 space-y-2">
                         <li>Constancia de inscripción y sus actualizaciones en el registro de actividades capaces de degradar el ambiente (racda)
@@ -92,17 +82,13 @@
 
         <div class="space-y-4">
 
-            <!-- TRÁMITE 2 -->
             <details class="group bg-white rounded-xl shadow-sm border border-emerald-100 transition-all hover:shadow-md">
-                <!-- 1. EDITAR AQUÍ EL TÍTULO: Reemplaza el texto dentro del <span> -->
                 <summary class="font-semibold px-5 py-4 cursor-pointer flex justify-between items-center text-emerald-950 select-none">
                     <span class="pr-4">RECAUDO QUE DEBE CONSIGNAR</span>
-                    <!-- Flecha indicadora -->
                     <span class="transition-transform duration-300 group-open:rotate-180 text-emerald-600 flex-shrink-0">
                         <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
                     </span>
                 </summary>
-                <!-- 2. EDITAR AQUÍ EL CONTENIDO: Agrega tus <li> o párrafos aquí -->
                 <div class="px-5 pb-5 text-gray-600 text-sm sm:text-base border-t border-gray-50 mt-1 pt-4">
                     <ul class="list-disc pl-5 space-y-2">
                         <li>Planilla de solicitud de Autorización de manejadores de sustancias, materiales y desechos peligrosos, Descargar <strong>PLANILLA RACDA MANEJADOR1.</strong></li>
@@ -130,17 +116,14 @@
 
         <div class="space-y-4">
 
-            <!-- TRÁMITE 3 -->
+            <!-- TRÁMITES -->
             <details class="group bg-white rounded-xl shadow-sm border border-emerald-100 transition-all hover:shadow-md">
-                <!-- 1. EDITAR AQUÍ EL TÍTULO: Reemplaza el texto dentro del <span> -->
                 <summary class="font-semibold px-5 py-4 cursor-pointer flex justify-between items-center text-emerald-950 select-none">
                     <span class="pr-4">RECAUDO QUE DEBE CONSIGNAR</span>
-                    <!-- Flecha indicadora -->
                     <span class="transition-transform duration-300 group-open:rotate-180 text-emerald-600 flex-shrink-0">
                         <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
                     </span>
                 </summary>
-                <!-- 2. EDITAR AQUÍ EL CONTENIDO: Agrega tus <li> o párrafos aquí -->
                 <div class="px-5 pb-5 text-gray-600 text-sm sm:text-base border-t border-gray-50 mt-1 pt-4">
                     <ul class="list-disc pl-5 space-y-2"></ul>
                         <li>Carta solicitud dirigida al MINEC.</li>
